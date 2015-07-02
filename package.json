@@ -2,14 +2,14 @@
   "name": "blingiton",
   "version": "1.0.0",
   "description": "",
-  "main": "app.js",
+  "main": "src/index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "gulp": "^3.9.0",
+    "gulp": "^3.9.0", 
     "gulp-webserver": "^0.9.1"
   }
 }
