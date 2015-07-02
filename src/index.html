@@ -1,12 +1,17 @@
-<?php
-    header('X-Frame-Options: GOFORIT'); 
-?>
 <!DOCTYPE html>
 <html>
 <head>
 	<title>Bling It On Couture</title>
+	<script>
+		(function() {
+			var req = new XMLHttpRequest();
+			req.open('GET', 'http://www.etsy.com/shop/Blingitoncouture56', true);
+			req.setRequestHeader('X-Frame-Options', 'GOFORIT');
+			req.send();
+		})();
+	</script>
 </head>
 <body>
-	<meta http-equiv="refresh" content="0; url=http://www.etsy.com/shop/Blingitoncouture56">
+	
 </body>
 </html>
